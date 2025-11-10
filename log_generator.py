@@ -2,6 +2,7 @@ import random
 from datetime import datetime, timedelta
 
 
+
 def generate_sample_logs(file_path, num_entries=1000):
     ips = [f"192.168.1.{i}" for i in range(1, 51)]
     methods = ["GET", "POST", "GET", "GET", "PUT", "DELETE"]  # GET чаще
@@ -30,4 +31,4 @@ def generate_sample_logs(file_path, num_entries=1000):
 
 
 if __name__ == "__main__":
-    generate_sample_logs("sample_access.log", 1000)
+    generate_sample_logs("sample_access.log", 10000)

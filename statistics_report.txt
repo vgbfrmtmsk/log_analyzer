@@ -1,0 +1,29 @@
+=== Log Analyzer Report ===
+Total requests: 10000
+Requests by method:
+- GET: 5002
+- POST: 1596
+- PUT: 1714
+- DELETE: 1688
+Top 10 IP addresses:
+- 192.168.1.22: 236 requests
+- 192.168.1.7: 230 requests
+- 192.168.1.10: 222 requests
+- 192.168.1.4: 222 requests
+- 192.168.1.41: 220 requests
+- 192.168.1.13: 220 requests
+- 192.168.1.29: 216 requests
+- 192.168.1.36: 214 requests
+- 192.168.1.40: 213 requests
+- 192.168.1.17: 212 requests
+Top 10 slowest requests (by response size):
+1. 5000 bytes
+2. 4999 bytes
+3. 4999 bytes
+4. 4998 bytes
+5. 4996 bytes
+6. 4996 bytes
+7. 4996 bytes
+8. 4994 bytes
+9. 4993 bytes
+10. 4991 bytes
